@@ -1,0 +1,15 @@
+# change startup project on PyCharm
+CTRL+SHIFT+F10 
+
+# main method
+def main():
+
+
+if __name__ == "__main__":
+    main()
+
+# loop that repeats 5 times
+for x in range(5):
+
+# remove final character from string
+new_word = new_word[:-1] 
