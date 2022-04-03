@@ -3,7 +3,7 @@ def online_count(users):
     counter = 0
 
     for x in users:
-        if users.get(x) == "Online":
+        if users.get(x) == "online":
             counter += 1
 
     return counter
@@ -11,9 +11,8 @@ def online_count(users):
 
 def main():
     users = {
-        "Ross": "Online",
-        "Joey": "Offline",
-        "Monica": "Online"
+        "Ross": "online",
+        "Joey": "Online"
     }
 
     print(online_count(users))
