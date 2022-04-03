@@ -16,3 +16,6 @@ new_word = new_word[:-1]
 
 #convert list from int to string
 [str(x) for x in list]
+
+#remove the last character from a string
+new_string = new_string[:-1]
