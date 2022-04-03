@@ -13,3 +13,6 @@ for x in range(5):
 
 # remove final character from string
 new_word = new_word[:-1] 
+
+#convert list from int to string
+[str(x) for x in list]
